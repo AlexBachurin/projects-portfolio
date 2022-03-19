@@ -6,12 +6,12 @@ const ProjectsSection = () => {
     return (
         <Wrapper>
             <div className="title">
-                <h2>All Projects</h2>
+                <h2>My Projects</h2>
                 <div className="underline"></div>
             </div>
             <form className='projects-form'>
                 <div className="form-input">
-                    <label htmlFor="type" id='type'>filter by course</label>
+                    <label htmlFor="type" id='type'>filter by technology</label>
                     <select name="type" id="type" className='form-select'>
                         <option value="all">all</option>
                         <option value="javascript">javascript</option>
@@ -115,7 +115,6 @@ const ProjectsSection = () => {
                             <a href="#">Source Code</a>
                         </div>
                     </div>
-
                 </article>
             </div>
         </Wrapper>
@@ -263,6 +262,10 @@ const Wrapper = styled.section`
                     }
                 }
             }
+    }
+    .single-project:hover {
+        box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
+        transform: scale(1.02);
     }
     .img-wrapper {
         position: relative;
