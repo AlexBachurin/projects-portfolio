@@ -59,6 +59,9 @@ h4 {
   margin-bottom: 0.75rem;
   font-family: var(--ff-primary);
 }
+ul {
+  list-style-type: none;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
