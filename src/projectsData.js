@@ -13,7 +13,7 @@ const projectsData = [
         name: 'github users',
         category: 'react',
         tags: ['react', 'js', 'html', 'css', 'auth0'],
-        imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1647971261/PortfolioImages/spotify-clone_puaeon.jpg',
+        imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1647971259/PortfolioImages/github-users_hhmqsg.jpg',
         projectUrl: 'https://bacha-coding-github-users.netlify.app/',
         gitUrl: 'https://github.com/AlexBachurin/search-github-users'
     },
@@ -22,7 +22,7 @@ const projectsData = [
         name: 'spotify clone',
         category: 'react',
         tags: ['react', 'js', 'html', 'css'],
-        imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1647971259/PortfolioImages/github-users_hhmqsg.jpg',
+        imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1647971261/PortfolioImages/spotify-clone_puaeon.jpg',
         projectUrl: 'https://bacha-spotify.netlify.app/',
         gitUrl: 'https://github.com/AlexBachurin/spotify-clone-react'
     }
