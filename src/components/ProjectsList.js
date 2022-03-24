@@ -1,14 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import projectsData from '../projectsData'
 import { FaGithubSquare } from 'react-icons/fa'
 import { BsBoxArrowUp } from 'react-icons/bs'
-const ProjectsList = () => {
+const ProjectsList = ({ filteredList }) => {
     return (
         <Wrapper className="projects-center">
-            {projectsData.map(item => {
-                const { id, name, category, tags, imgUrl, projectUrl, gitUrl } = item;
-                return <article className="single-project">
+            {filteredList.map(item => {
+                const { id, name, tags, imgUrl, projectUrl, gitUrl } = item;
+                return <article key={new Date().getTime().toString() + id} className="single-project">
                     <div className="img-wrapper">
                         <div className="overlay"></div>
                         <img className='project-img' src={imgUrl} alt={name} />
@@ -37,30 +36,7 @@ const ProjectsList = () => {
 
                 </article>
             })}
-            {/* <article className="single-project">
-                <div className="img-wrapper">
-                    <div className="overlay"></div>
-                    <img className='project-img' src="https://res.cloudinary.com/dljezd6qv/image/upload/v1618539852/panda_firju8.jpg" alt="" />
-                </div>
-                <div className="footer">
-                    <a className='visit-link' href="#">
-                        <BsBoxArrowUp />
-                    </a>
-                    <div className="info">
-                        <h4>name</h4>
-                        <div className="stack">
-                            <p className='tag'>html</p>
-                            <p className='tag'>css</p>
-                        </div>
-                    </div>
-                    <div className="links">
-                        <FaGithubSquare className="github-icon" />
-                        <a href="#">View Project</a>
-                        <a href="#">Source Code</a>
-                    </div>
-                </div>
 
-            </article> */}
 
         </Wrapper>
     )

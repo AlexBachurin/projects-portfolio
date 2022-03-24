@@ -1,7 +1,40 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import ProjectsList from './ProjectsList'
+import projectsData from '../projectsData'
 const ProjectsSection = () => {
+    //state for current category
+    const [curCategory, setCurCategory] = useState('all');
+    //state for initial list of projects, this is needed because we will filter only this list every time
+    const [initialList, setInitialList] = useState(projectsData);
+    //state for filtered list
+    const [filteredList, setFilteredList] = useState(initialList)
+    //get categories
+    const categories = projectsData.map(item => item.category);
+    //get unique categories and put in array and add 'all'
+    const uniqCategories = ['all', ...new Set(categories)];
+
+    //change option handler
+    const changeCategory = (e) => {
+        const value = e.target.value;
+        setCurCategory(value);
+    }
+    //useEffect to change list as category changes
+    useEffect(() => {
+        //only filter INITIAL LIST
+        const newList = initialList.filter(item => {
+            //if category is all just return all items, else return only item with this category
+            if (curCategory === 'all') {
+                return item;
+            } else {
+                return item.category === curCategory;
+            }
+        });
+        console.log(newList)
+        //set it to FILTERED LIST!!!
+        setFilteredList(newList)
+        //eslint-disable-next-line
+    }, [curCategory])
     return (
         <Wrapper>
             <div className="title">
@@ -11,15 +44,15 @@ const ProjectsSection = () => {
             <form className='projects-form'>
                 <div className="form-input">
                     <label htmlFor="type" id='type'>filter by technology</label>
-                    <select name="type" id="type" className='form-select'>
-                        <option value="all">all</option>
-                        <option value="javascript">javascript</option>
-                        <option value="react">react</option>
-                        <option value="html/css">html/css</option>
+                    <select onChange={changeCategory} name="type" id="type" className='form-select'>
+                        {uniqCategories.map((item, index) => {
+                            return <option key={index} value={item}>{item}</option>
+                        })}
+
                     </select>
                 </div>
             </form>
-            <ProjectsList />
+            <ProjectsList filteredList={filteredList} />
         </Wrapper>
     )
 }

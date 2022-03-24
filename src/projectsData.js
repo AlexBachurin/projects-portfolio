@@ -47,7 +47,7 @@ const projectsData = [
     {
         id: 6,
         name: 'window glazing',
-        category: 'js',
+        category: 'javascript',
         tags: ['js', 'html', 'scss'],
         imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1648147574/PortfolioImages/window-project_qj7zme.jpg',
         projectUrl: 'https://bacha-coding-windowproject.netlify.app/',
@@ -56,7 +56,7 @@ const projectsData = [
     {
         id: 7,
         name: 'quiz-js',
-        category: 'js',
+        category: 'javascript',
         tags: ['js', 'html', 'sass'],
         imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1648148021/PortfolioImages/quiz-js_ujxd7y.jpg',
         projectUrl: 'https://bacha-quiz-app.netlify.app/',
@@ -83,7 +83,7 @@ const projectsData = [
     {
         id: 10,
         name: 'reminder timer',
-        category: 'js',
+        category: 'javascript',
         tags: ['js', 'html', 'css'],
         imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1648150016/PortfolioImages/reminder-js_gqtvsw.jpg',
         projectUrl: 'https://bacha-js-reminder.netlify.app/',
@@ -99,7 +99,7 @@ const projectsData = [
         gitUrl: 'https://github.com/AlexBachurin/movie-db-app'
     },
     {
-        id: 11,
+        id: 12,
         name: 'Blog dark mode',
         category: 'react',
         tags: ['react', 'js', 'html', 'css'],
@@ -108,7 +108,7 @@ const projectsData = [
         gitUrl: 'https://github.com/AlexBachurin/blog-dark-mode-toggle'
     },
     {
-        id: 12,
+        id: 13,
         name: 'Photos infinite scroll',
         category: 'react',
         tags: ['react', 'api', 'js', 'html', 'css'],
@@ -117,7 +117,7 @@ const projectsData = [
         gitUrl: 'https://github.com/AlexBachurin/react-photos-infinite-scroll-fetch'
     },
     {
-        id: 13,
+        id: 14,
         name: 'Stripe submenus',
         category: 'react',
         tags: ['react', 'js', 'html', 'css'],
@@ -126,7 +126,7 @@ const projectsData = [
         gitUrl: 'https://github.com/AlexBachurin/submenus-hover-app'
     },
     {
-        id: 14,
+        id: 15,
         name: 'Markdown Preview',
         category: 'react',
         tags: ['react', 'js', 'html', 'css'],
@@ -135,7 +135,7 @@ const projectsData = [
         gitUrl: 'https://github.com/AlexBachurin/markdown-preview-app'
     },
     {
-        id: 15,
+        id: 16,
         name: 'Cocktail app',
         category: 'react',
         tags: ['react', 'api', 'js', 'html', 'css'],
@@ -144,7 +144,7 @@ const projectsData = [
         gitUrl: 'https://github.com/AlexBachurin/react-cocktail-api'
     },
     {
-        id: 16,
+        id: 17,
         name: 'Color generator',
         category: 'react',
         tags: ['react', 'js', 'html', 'css'],
