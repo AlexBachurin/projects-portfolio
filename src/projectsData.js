@@ -47,7 +47,7 @@ const projectsData = [
 
     {
         id: 6,
-        name: 'window glazing',
+        name: 'ИРВАС',
         category: 'javascript',
         tags: ['js', 'html', 'scss'],
         imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1648147574/PortfolioImages/window-project_qj7zme.jpg',
@@ -178,7 +178,7 @@ const projectsData = [
     {
         id: 20,
         name: 'Global Opt',
-        category: 'html',
+        category: 'html-css',
         tags: ['js', 'html', 'sass', 'gulp'],
         imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1648522227/PortfolioImages/GlobalOpt_ceyhnt.jpg',
         projectUrl: 'https://bacha-global-opt.netlify.app/',
@@ -187,7 +187,7 @@ const projectsData = [
     {
         id: 21,
         name: 'Prengi',
-        category: 'html',
+        category: 'html-css',
         tags: ['js', 'html', 'sass', 'gulp'],
         imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1648522309/PortfolioImages/Prengi_ds5eji.jpg',
         projectUrl: 'https://bacha-coding-prengi-html.netlify.app/',
@@ -196,7 +196,7 @@ const projectsData = [
     {
         id: 22,
         name: 'KREA',
-        category: 'html',
+        category: 'html-css',
         tags: ['js', 'html', 'sass', 'gulp'],
         imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1648522409/PortfolioImages/KREA_kpzlfq.jpg',
         projectUrl: 'https://bacha-coding-krea-html.netlify.app/',
@@ -205,7 +205,7 @@ const projectsData = [
     {
         id: 23,
         name: 'Pulse',
-        category: 'html',
+        category: 'html-css',
         tags: ['js', 'html', 'sass', 'gulp'],
         imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1648522534/PortfolioImages/Pulse_okcdtp.jpg',
         projectUrl: 'https://bacha-coding-pulse-gulp.netlify.app/',
@@ -214,7 +214,7 @@ const projectsData = [
     {
         id: 24,
         name: 'UBER',
-        category: 'html',
+        category: 'html-css',
         tags: ['js', 'html', 'sass', 'gulp'],
         imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1648522650/PortfolioImages/UBER_ewffza.jpg',
         projectUrl: 'https://bacha-coding-uber-html.netlify.app/',
