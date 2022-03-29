@@ -11,7 +11,8 @@ const Navbar = () => {
                     </div>
                     <ul className="nav-icons">
                         <li>
-                            <a href="github.com">
+                            {/* eslint-disable-next-line */}
+                            <a href="https://github.com/AlexBachurin" target='_blank'>
                                 <FaGithubSquare />
                             </a>
                         </li>

@@ -6,6 +6,7 @@ const ProjectsSection = () => {
     //state for current category
     const [curCategory, setCurCategory] = useState('all');
     //state for initial list of projects, this is needed because we will filter only this list every time
+    //eslint-disable-next-line
     const [initialList, setInitialList] = useState(projectsData);
     //state for filtered list
     const [filteredList, setFilteredList] = useState(initialList)
@@ -30,7 +31,6 @@ const ProjectsSection = () => {
                 return item.category === curCategory;
             }
         });
-        console.log(newList)
         //set it to FILTERED LIST!!!
         setFilteredList(newList)
         //eslint-disable-next-line

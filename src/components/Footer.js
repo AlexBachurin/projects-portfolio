@@ -7,7 +7,8 @@ const Footer = () => {
             <div className='upper-wrapper'>
                 <ul className='icons'>
                     <li>
-                        <a className='social-link' href="github.com">
+                        {/* eslint-disable-next-line */}
+                        <a className='social-link' href="https://github.com/AlexBachurin" target='_blank'>
                             <FaGithubSquare />
                         </a>
                     </li>
@@ -15,7 +16,8 @@ const Footer = () => {
             </div>
             <div className="info">
                 © 2022 Bacha Coding. All rights reserved. Built with
-                <a className='link' href="reactjs.org">React</a>
+                {/* eslint-disable-next-line */}
+                <a className='link' href="https://ru.reactjs.org/" target='_blank'>React</a>
             </div>
         </Wrapper>
     )
