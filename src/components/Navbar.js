@@ -56,13 +56,7 @@ const Wrapper = styled.section`
         .navbar {
             background: transparent;
         }
-        .nav-center {
-            
-            /* align-items: center;
-            grid-template-columns: auto 1fr auto;
-            -webkit-column-gap: 4rem;
-            column-gap: 4rem; */
-        }
+        
 
     }
 `

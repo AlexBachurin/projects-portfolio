@@ -13,6 +13,7 @@ const ProjectsList = ({ filteredList }) => {
                         <img className='project-img' src={imgUrl} alt={name} />
                     </div>
                     <div className="footer">
+                        {/* eslint-disable-next-line */}
                         <a className='visit-link' href={projectUrl} target='_blank'>
                             <BsBoxArrowUp />
                         </a>
@@ -29,7 +30,9 @@ const ProjectsList = ({ filteredList }) => {
                         </div>
                         <div className="links">
                             <FaGithubSquare className="github-icon" />
+                            {/* eslint-disable-next-line */}
                             <a href={projectUrl} target='_blank'>View Project</a>
+                            {/* eslint-disable-next-line */}
                             <a href={gitUrl} target='_blank'>Source Code</a>
                         </div>
                     </div>

@@ -240,15 +240,6 @@ const projectsData = [
         gitUrl: 'https://github.com/AlexBachurin/react-pagination'
     },
     {
-        id: 27,
-        name: 'Game Of Thrones API',
-        category: 'react',
-        tags: ['react', 'js', 'html', 'css', 'api'],
-        imgUrl: 'https://res.cloudinary.com/dljezd6qv/image/upload/v1648523981/PortfolioImages/pagination-react_i18t3b.jpg',
-        projectUrl: 'https://bacha-got-api-react.netlify.app/',
-        gitUrl: 'https://github.com/AlexBachurin/react-gotApi-app'
-    },
-    {
         id: 28,
         name: 'react-lorem-ipsum',
         category: 'react',
